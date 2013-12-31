@@ -1,0 +1,47 @@
+
+git: caching / transactions
+git: check for corrupted repos
+
+celery env correct on restart?
+
+fix file cancellation
+# fix component reordering
+fix component order in file widget
+
+limit pygments in file render
+
+
+###
+
+security: log impossible requests
+clean up unused imports
+
+components with category = "category"
+find({'category' : 'category'}, {date_created : 1}).sort({date_created : -1})
+
+factor references to schema out of backends
+key caches on primary keys
+allow remove methods to take key, object
+move stuff out of storedobject.py
+redis backend
+goback
+
+add date_modified to Node / migrate old
+
+think about ticketing system
+
+think about GH issue for DVN integration
+
+# API keys
+- expiration times
+- granular permissions
+- suspend on ToS change
+- alerts / holds
+- login?callback=...
+
+
+###
+
+name template files by renderer (mako, mustache, etc.) and auto-detect
+purge old-style templates
+fix status, gravatar
