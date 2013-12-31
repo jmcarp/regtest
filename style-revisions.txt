@@ -1,0 +1,49 @@
+## Steve
+
+public activity:
+
+lines between links
+space between projects
+no badge class
+date / count at top
+
+project lists:
+
+plus / minus at top
+<hr> between main and logs
+
+project view:
+
+extra space under file tree
+revert moment.js (add flag and set to false) OR add tz + 12/24 autodetect
+pad datetimes for uniform width
+selected privacy (public / private) should be blue
+
+view files:
+
+extra vertical line in actions (download / delete) header
+
+create registration:
+
+inputs are all full-screen width
+
+view registration:
+
+underline "this node" link
+"this node" -> "this project / component"
+add back registrations and settings, disabling forbidden actions
+
+view registration meta-data:
+
+inputs are all full-screen width
+
+## Josh
+
+Text for no forks
+HGrid: labels components as "Project / Component: {}"
+fix column widths
+make all columns sortable
+fix random upload bug (502)
+hide delete button on registrations
+developer api, rpp, rpcb, osf -> relative links
+
