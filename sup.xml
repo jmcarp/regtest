@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Meyer2000">
+    <titleInfo>
+        <title>A constraint-based framework for diagrammatic reasoning</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Bernd</namePart>
+        <namePart type="family">Meyer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2000</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre>journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Applied Artificial Intelligence</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre>academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Meyer2000</identifier>
+    <part>
+        <date>2000</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>327</start>
+            <end>344</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>
