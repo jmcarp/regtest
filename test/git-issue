@@ -1,0 +1,4 @@
+
+Commit collisions in Git
+
+When a user uploads many files at once, or when many users upload files to the same node at once, Git may try to run a commit before the previous commit has finished. This leads to inconsistencies between the Git repo and the `files_current` and `files_versions` fields in the Node model. This issue is on hold for the time being; just noting it here for record-keeping.
