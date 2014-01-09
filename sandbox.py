@@ -1,4 +1,5 @@
 
+import this
 
 class A(object):
     
