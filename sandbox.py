@@ -1,1 +1,2 @@
-print 'this is sandbox.py in develop!'
+import this
+from __future__ import division
