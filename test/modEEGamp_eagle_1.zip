@@ -1,0 +1,578 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Open Science Framework | modEEGamp_eagle.zip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="
+">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="/static/vendor/bootstrap3/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="/static/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/vendor/jquery-ui/css/jquery-ui.css">
+    <link rel="stylesheet" href="/static/vendor/jquery-tagit/css/jquery.tagit.css">
+    <link rel="stylesheet" href="/static/vendor/jquery-tagsinput/css/jquery.tagsinput.css">
+    <link rel="stylesheet" href="/static/vendor/jquery-tagit/css/tagit.ui-zendesk.css">
+    <link rel="stylesheet" href="/static/vendor/jquery-fileupload/css/jquery.fileupload-ui.css">
+    <link rel="stylesheet" href="/static/vendor/pygments.css">
+    <link rel="stylesheet" href="/static/vendor/bootstrap3-editable/css/bootstrap-editable.css">
+    <link rel="stylesheet" href="/static/vendor/bootstrap3/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/static/css/site.css">
+    
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.0.0/knockout-min.js"></script>
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/knockout/knockout-min.js"></script>
+    <script src="/static/vendor/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="/static/vendor/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    <script src="/static/vendor/bootbox/bootbox.min.js"></script>
+    <script src="/static/vendor/jquery-ui/js/jquery-ui.min.js"></script>
+    <script src="/static/vendor/jquery-tagsinput/js/jquery.tagsinput.min.js"></script>
+    <script src="/static/vendor/jquery-tagcloud/jquery.tagcloud.js"></script>
+    <script src="/static/vendor/jquery-tagit/js/tag-it.js"></script>
+    <script src="/static/vendor/moment/moment.min.js"></script>
+    <script src="/static/vendor/jquery-blockui/jquery.blockui.js"></script>
+    <script src="/static/js/site.js"></script>
+    <script src="/static/js/project.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/addons.js"></script>
+    
+        <script type="text/javascript">
+            $(document).ready(function() {
+                FileRenderer.start('/api/v1/project/9jicr/github/file/modEEGamp_eagle.zip/render/?sha=3f838de89fc628a8a331b02119a36b0106a071c2', '#fileRendered');
+            });
+        </script>
+
+
+</head>
+<body>
+    <style>
+        #devmode {
+            position:fixed;
+            bottom:0;
+            left:0;
+            border-top-right-radius:8px;
+            background-color:red;
+            color:white;
+            padding:.5em;
+        }
+    </style>
+    <div id='devmode'><strong>WARNING</strong>: This site is running in development mode.</div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hidden-xs" href="/">Open Science Framework<span class="brand-version"> BETA</span></a>
+      </div><!-- end navbar-header -->
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="visible-xs"><a href="/">Home</a></li>
+          <li><a rel="tooltip" title="My Dashboard" href="/dashboard/">Dashboard</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/explore">Collaborator Network</a></li>
+              <li><a href="/explore/activity">Public Activity</a></li>
+            </ul><!-- end dropdown-menu -->
+          </li><!-- end dropdown -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/4znZP/wiki/home">About</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+              <li><a href="/getting-started">Getting Started</a></li>
+            </ul><!-- end dropdown-menu -->
+          </li><!-- end dropdown -->
+        </ul><!-- end nav navbar-nav -->
+        <!-- Search bar -->
+        <form id="searchBar" class="navbar-form navbar-left" action="/search/" method="get" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control search-query" placeholder="Search" name="q">
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/profile/">test@test.test</a></li>
+          <li><a rel="tooltip" title="Settings" href="/settings/"><span class="icon-cog"></span></a></li>
+          <li><a rel="tooltip" title="Log out" href="/logout/"><span class="icon-signout"></span></a></li>
+        </ul><!-- end nav navbar-nav navbar-right -->
+      </div><!-- end navbar-collapse -->
+    </div><!-- end container-->
+</nav>
+
+    <div class="watermarked">
+        <div class="container">
+            
+
+
+<div id="projectScope">
+    <header class="subhead" id="overview">
+        <div class="row">
+
+            <div class="col-md-8 cite-container">
+                <h1 class="node-title">
+                    <span id="nodeTitleEditable">Fork of mfr</span>
+                </h1>
+            </div><!-- end col-md-->
+
+            <div class="col-md-4">
+                <div class="btn-toolbar node-control pull-right">
+                    <div class="btn-group">
+                        <button class='btn btn-default disabled'>Private</button>
+                            <a class="btn btn-default" id="publicButton" data-target="/api/v1/project/9jicr/permissions/public/">Make public</a>
+                    </div><!-- end btn-group -->
+
+                    <div class="btn-group">
+                            <a rel="tooltip" title="Watch" class="btn btn-default" href="#" data-bind="click: toggleWatch">
+                        <i class="icon-eye-open"></i>
+                        <span data-bind="text: watchButtonDisplay" id="watchCount"></span>
+
+                        </a>
+
+                        <a
+                            rel="tooltip"
+                            title="Number of times this node has been forked (copied)"
+                                href="#"
+                                class="btn btn-default node-fork-btn"
+                                onclick="NodeActions.beforeForkNode();"
+                        >
+                            <i class="icon-code-fork"></i>&nbsp;1
+                        </a>
+
+                    </div><!-- end btn-grp -->
+                </div><!-- end btn-toolbar -->
+            </div><!-- end col-md-->
+
+        </div><!-- end row -->
+
+
+        <p id="contributors">Contributors:
+                <span class="contributor">
+            <a href="/mhd48/"
+                    class="user-quickedit" data-userid="mhd48" data-fullname="test test"
+                >test test</a>
+    </span>
+
+    | <a href="#addContributors" data-toggle="modal">add</a>
+<br />Forked from <a class="node-forked-from" href="/tdpsn/">localhost:5000/tdpsn</a> on
+                <span data-bind="text: dateForked.local,
+                                tooltip: {title: dateForked.utc}"></span>
+            <br />Date Created:
+                <span data-bind="text: dateCreated.local,
+                                tooltip: {title: dateCreated.utc}"
+                     class="date node-date-created"></span>
+            | Last Updated:
+            <span data-bind="text: dateModified.local,
+                            tooltip: {title: dateModified.utc}"
+                   class="date node-last-modified-date"></span>
+                 <br />Description: <span id="nodeDescriptionEditable" class="node-description"></span>
+        </p>
+
+        <nav id="projectSubnav" class="navbar navbar-default ">
+            <ul class="nav navbar-nav">
+                <li><a href="/9jicr/">Dashboard</a></li>
+
+                    <li><a href="/9jicr/files/">Files</a></li>
+                <!-- Add-on tabs -->
+                        <li>
+                            <a href="/9jicr/wiki">
+                                Wiki
+                            </a>
+                        </li>
+
+                <li><a href="/9jicr/statistics/">Statistics</a></li>
+                    <li><a href="/9jicr/registrations/">Registrations</a></li>
+                    <li><a href="/9jicr/forks/">Forks</a></li>
+                    <li><a href="/9jicr/settings/">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+</div><!-- end projectScope -->
+<div class="modal fade" id="addContributors">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 data-bind="text:pageTitle"></h3>
+            </div>
+
+            <div class="modal-body">
+
+                <!-- Whom to add -->
+
+                <div data-bind="if:page()=='whom'">
+
+                    <!-- Find contributors -->
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input style="margin-bottom: 8px;" data-bind="value:query" />
+                                <div><button class="btn btn-default" data-bind="click:search">Search</button></div>
+                            </div>
+                            <div class="col-md-6" data-bind="if:parentId">
+                                <a data-bind="click:importFromParent, text:'Import contributors from ' + parentTitle"></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a data-bind="click:recentlyAdded, text:'Get list of recently added contributors'"></a>
+                            </div>
+                        </div>
+                    </form>
+
+                    <hr />
+
+                    <!-- Choose which to add -->
+                    <div class="row">
+
+                        <div class="col-md-6"col-md->
+                            <div>
+                                <span class="modal-subheader">Results</span>
+                                <a data-bind="click:addAll">Add all</a>
+                            </div>
+                            <div class="error" data-bind="if:errorMsg, text:errorMsg"></div>
+                            <table>
+                                <tbody data-bind="foreach:{data:results, afterRender:addTips}">
+                                    <tr data-bind="if:!($root.selected($data))">
+                                        <td style="padding-right: 10px;">
+                                            <a
+                                                    class="btn btn-default contrib-button"
+                                                    data-bind="click:$root.add"
+                                                    rel="tooltip"
+                                                    title="Add contributor"
+                                                >+</a>
+                                        </td>
+                                        <td>
+                                            <img data-bind="attr:{src:gravatar}" />
+                                        </td>
+                                        <td data-bind="text:fullname"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div>
+                                <span class="modal-subheader">Adding</span>
+                                <a data-bind="click:removeAll">Remove all</a>
+                            </div>
+                            <table>
+                                <tbody data-bind="foreach:{data:selection, afterRender:addTips}">
+                                    <tr>
+                                        <td style="padding-right: 10px;">
+                                            <a
+                                                    class="btn btn-default contrib-button"
+                                                    data-bind="click:$root.remove"
+                                                    rel="tooltip"
+                                                    title="Remove contributor"
+                                                >-</a>
+                                        </td>
+                                        <td>
+                                            <img data-bind="attr:{src:gravatar}" />
+                                        </td>
+                                        <td data-bind="text:fullname"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div data-bind="if:page()=='which'">
+
+                    <div>
+                        Adding contributor(s)
+                        <span data-bind="text:addingSummary()"></span>
+                        to component
+                        <span data-bind="text:title"></span>.
+                    </div>
+
+                    <hr />
+
+                    <div style="margin-bottom:10px;">
+                        Would you like to add these contributor(s) to any children of
+                        the current component?
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <input type="checkbox" checked disabled />
+                            <span data-bind="text:title"></span> (current component)
+                            <div data-bind="foreach:nodes">
+                                <div data-bind="style:{'margin-left':margin}">
+                                    <input type="checkbox" data-bind="checked:$parent.nodesToChange, value:id" />
+                                    <span data-bind="text:title"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div>
+                                <a data-bind="click:selectNodes, css:{disabled:cantSelectNodes()}">Select all</a>
+                            </div>
+                            <div>
+                                <a data-bind="click:deselectNodes, css:{disabled:cantDeselectNodes()}">De-select all</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div><!-- end modal-body -->
+
+            <div class="modal-footer">
+
+                <a href="#" class="btn btn-default" data-dismiss="modal">Cancel</a>
+
+                <span data-bind="if:selection().length && page() == 'whom'">
+                    <a class="btn btn-success" data-bind="visible:nodes().length==0, click:submit">Submit</a>
+                    <a class="btn btn-primary" data-bind="visible:nodes().length, click:selectWhich">Next</a>
+                </span>
+
+                <span data-bind="if:page() == 'which'">
+                    <a class="btn btn-primary" data-bind="click:selectWhom">Back</a>
+                    <a class="btn btn-success" data-bind="click:submit">Submit</a>
+                </span>
+
+            </div><!-- end modal-footer -->
+        </div><!-- end modal-content -->
+    </div><!-- end modal-dialog -->
+</div><!-- end modal -->
+
+<script>
+
+    var userId = 'mhd48';
+    var nodeId = '9jicr';
+    var userApiUrl = '/api/v1/profile/mhd48/';
+    var nodeApiUrl = '/api/v1/project/9jicr/';
+
+    $(document).ready(function(){
+        $logScope = $('#logScope');
+        if ($logScope.length > 0) {
+            progressBar = $('#logProgressBar');
+            progressBar.show();
+        }
+        // Get project data from the server and initiate the ProjectViewModel
+        $.ajax({
+            type: 'get',
+            url: nodeApiUrl,
+            contentType: 'application/json',
+            dataType: 'json',
+            cache: false,
+            success: function(data){
+                // Initialize ProjectViewModel with returned data
+                ko.applyBindings(new ProjectViewModel(data), $('#projectScope')[0]);
+
+                // Initiate AddContributorViewModel
+                var $addContributors = $('#addContributors');
+                var addContribVM = new AddContributorViewModel(data['node']['title'],
+                                                        data['parent']['id'],
+                                                        data['parent']['title']);
+                ko.applyBindings(addContribVM, $addContributors[0]);
+                // Clear user search modal when dismissed; catches dismiss by escape key
+                // or cancel button.
+                $addContributors.on('hidden', function() {
+                    addContribVM.clear();
+                });
+
+                // Initialize LogsViewModel when appropriate
+                if ($logScope.length > 0) {
+                    progressBar.hide();
+                    var logs = data['node']['logs'];
+                    // Create an array of Log model objects from the returned log data
+                    var logModelObjects = createLogs(logs);
+                    ko.applyBindings(new LogsViewModel(logModelObjects), $logScope[0]);
+                }
+            }
+        });
+    });
+
+</script>
+<div id="file-container" class="row">
+
+        <div class="col-md-8">
+            
+
+    <div id="file-container" class="row">
+
+        <section>
+            <div class="page-header overflow">
+                <h1>modEEGamp_eagle.zip</h1>
+            </div>
+        </section>
+
+        <div id="fileRendered" class="mfr mfr-file">
+                <img src="/static/img/loading.gif">
+        </div>
+
+    </div>
+
+
+        </div>
+
+        <div class="col-md-4">
+            
+
+    <table class="table" id="file-version-history">
+
+        <thead>
+            <tr>
+                <th>Commit</th>
+                <th>Date</th>
+                <th>User</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+
+        <tbody>
+                <tr class="active">
+                    <td>
+                        <a href="/9jicr/github/file/modEEGamp_eagle.zip?sha=3f838de89fc628a8a331b02119a36b0106a071c2&branch=master" title="3f838de89fc628a8a331b02119a36b0106a071c2">
+                            3f838de89f
+                        </a>
+                    </td>
+                    <td>
+                        2014-02-03T17:24:30Z
+                    </td>
+                    <td>
+                        <a href="mailto:mhd48@osf.io">
+                            test test
+                        </a>
+                    </td>
+                    <td>
+                        <a href="/api/v1/project/9jicr/github/file/modEEGamp_eagle.zip?ref=sha=3f838de89fc628a8a331b02119a36b0106a071c2" download="modEEGamp_eagle.zip">
+                            <i class="icon-download-alt"></i>
+                        </a>
+                    </td>
+                </tr>
+        </tbody>
+
+    </table>
+
+
+        </div>
+
+    </div>
+
+
+        </div><!-- end container -->
+    </div><!-- end watermarked -->
+
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-2 col-md-offset-1">
+                <h4>OSF</h4>
+                <ul>
+                    <li><a href="/4znZP/wiki/home">About</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/explore">Explore</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Center for Open Science</h4>
+                <ul>
+                    <li><a href="http://centerforopenscience.org">Home</a></li>
+                    <li><a href="http://centerforopenscience.org/#contact">Contact</a></li>
+                    <li><a href="/ezcuj/wiki/home/">Reproducibility Project: Psychology</a></li>
+                    <li><a href="/e81xl/wiki/home/">Reproducibility Project: Cancer Biology</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Documentation</h4>
+                <ul>
+                    <li><a href="/getting-started">Getting Started</a></li>
+                    <li><a href="/qb0du/">Developer API</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h4>Socialize</h4>
+                <div class="social">
+                    <a href="http://twitter.com/OSFramework"><i class="icon-twitter icon-2x"></i></a>
+                    <a href="https://www.facebook.com/OpenScienceFramework"><i class="icon-facebook icon-2x"></i></a>
+                    <a href="https://groups.google.com/forum/#!forum/openscienceframework"><i class="icon-google-plus icon-2x"></i></a>
+                    <a href="https://www.github.com/centerforopenscience"><i class="icon-github icon-2x"></i></a>
+                    <a href="https://plus.google.com/103557785986281627994" rel="publisher"><i class="icon-google-plus-sign icon-2x"></i></a>
+                </div>
+            </div> <!-- column -->
+        </div>
+    </div>
+</footer><!-- end footer -->
+<div class="container copyright">
+    <div class="row">
+        <div class="col-md-12">
+        <p>Copyright &copy; 2011-2013 <a href="http://centerforopenscience.org">CenterforOpenScience.org</a> - Terms of Service | Privacy | Security</p>
+        </div>
+    </div>
+</div><!-- end container copyright -->
+
+
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <script>
+            var _prum = [['id', '526076f6abe53d9e35000000'],
+                         ['mark', 'firstbyte', (new Date()).getTime()]];
+            (function() {
+                var s = document.getElementsByTagName('script')[0]
+                  , p = document.createElement('script');
+                p.async = 'async';
+                p.src = '//rum-static.pingdom.net/prum.min.js';
+                s.parentNode.insertBefore(p, s);
+            })();
+            </script>
+
+            <script type="text/javascript">
+
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-26813616-1']);
+              _gaq.push(['_trackPageview']);
+
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+            </script>
+
+        
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

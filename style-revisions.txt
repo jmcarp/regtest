@@ -40,10 +40,8 @@ inputs are all full-screen width
 ## Josh
 
 Text for no forks
-HGrid: labels components as "Project / Component: {}"
-fix column widths
-make all columns sortable
 fix random upload bug (502)
-hide delete button on registrations
 developer api, rpp, rpcb, osf -> relative links
+
+##
 

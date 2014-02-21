@@ -1,7 +1,0 @@
-# Ben Blohowiak un-delete notes
-
-# Verify only one project with matching title
-db.node.find({title : 'Project Hyperland'}).count()
-
-# Reset is_deleted and deleted_date fields
-db.node.update({title : 'Project Hyperland'}, {$set : {is_deleted : false, deleted_date : null}})
