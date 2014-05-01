@@ -1,3 +1,5 @@
+import this
+
 import logging
 logging.basicConfig(logging=logging.DEBUG)
 
